@@ -1,14 +1,12 @@
 {
-  "name": "react-extension",
+  "name": "weather-extension",
   "version": "1.0.0",
-  "description": "Chrome extension",
-  "main": "index.js",
+  "description": "React Extension",
   "scripts": {
     "start": "webpack --watch --progress --config webpack.dev.js",
     "build": "webpack --watch --progress --config webpack.prod.js"
   },
   "author": "KemalIlkilic",
-  "license": "UNLICENSED",
   "devDependencies": {
     "@types/chrome": "^0.0.260",
     "@types/react": "^18.2.55",
